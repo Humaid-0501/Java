@@ -85,6 +85,13 @@ public class TicTacToe extends JFrame{
                 
                 
             }
+            if(!bt1.getText().equals("") && !bt2.getText().equals("") && !bt3.getText().equals("") && !bt4.getText().equals("")
+                && !bt5.getText().equals("") && !bt6.getText().equals("") && !bt7.getText().equals("") && !bt8.getText().equals("")
+                && !bt9.getText().equals(""))
+            {
+                JOptionPane.showMessageDialog(null,"Game Over!");
+                
+            }
         }
         
         public boolean CheckForWin()
